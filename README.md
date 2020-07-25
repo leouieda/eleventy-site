@@ -36,3 +36,11 @@ all pages, for example.
 **Sidenote:** Markdown files not called `index.md` are transformed into a
 folder + `index.html` file. For example, `about.md` becomes `about/index.html`
 instead of `about.html`.
+
+### Configuration
+
+We can configure eleventy using the `config.js` file. For example, we can use
+that to tell it to copy folders and files to the output (`_site`). This is
+useful to copy folder with CSS files, images, and other files that aren't HTML
+and Markdown. The default name for the configuration file is `.eleventy.js` but
+we changed it to `config.js` in the `Makefile`.
