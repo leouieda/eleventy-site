@@ -2,6 +2,8 @@
 
 Learning how to use this thing: https://www.11ty.dev
 
+Tutorial: https://www.filamentgroup.com/lab/build-a-blog/
+
 ## Notes
 
 ### Generating the HTML
