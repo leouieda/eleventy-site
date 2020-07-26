@@ -39,6 +39,16 @@ all pages, for example.
 folder + `index.html` file. For example, `about.md` becomes `about/index.html`
 instead of `about.html`.
 
+Eleventy includes all site content in the `collections` template variable. It
+is grouped by "tags". `collections.all` is a list with all site content. We can
+generate lists of pages by doing a `for` loop over these lists. For example:
+
+```
+{% for post in collections.posts %}
+    {{ post.url }}
+{% endfor %}
+```
+
 ### Configuration
 
 We can configure eleventy using the `config.js` file. For example, we can use
