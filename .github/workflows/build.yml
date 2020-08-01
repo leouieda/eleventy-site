@@ -18,7 +18,7 @@ jobs:
         uses: actions/setup-node@v1
 
       - name: Install eleventy
-        run: npm install @11ty/eleventy
+        run: npm install -g @11ty/eleventy
 
       - name: Build the website
         run: make
